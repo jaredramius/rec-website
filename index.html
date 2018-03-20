@@ -45,6 +45,9 @@
                             <li><a href="#about"><span class="menu-item-span">Features</span></a></li>
                             <li><a href="#services"><span class="menu-item-span">Services</span></a></li>
                             <li><a href="#applications"><span class="menu-item-span">Applications</span></a></li>
+                            <li><a href="#resources"><span class="menu-item-span">Resources</span></a></li>
+                            <li><a href="#blog"><span class="menu-item-span">Blog</span></a></li>
+                            <li><a href="#contact-us"><span class="menu-item-span">Contact Us</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +63,7 @@
         <!-- Main Wrapper-->
         <div class="wrapper">
             <!-- Hero-->
-            <section class="module-cover parallax fullscreen text-left" id="home" data-background="dist/assets/images/module-2.jpg" data-jarallax-video="mp4:dist/assets/video/Recollective Summary.mp4" data-overlay="0.6">
+            <section class="module-cover parallax fullscreen text-left" id="home" data-background="dist/assets/images/module-2.jpg" data-jarallax-video="mp4:dist/assets/video/Recollective Summary.mp4" data-overlay="0.8">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -315,12 +318,12 @@
                                 <!-- Recent entries widget-->
                                 <aside class="widget widget-recent-entries">
                                     <div class="widget-title">
-                                        <h6>Recent Posts</h6>
+                                        <h6>Careers</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Map where your photos were taken and discover local points.</a><span class="post-date">May 8, 2018</span></li>
-                                        <li><a href="#">Map where your photos were taken and discover local points.</a><span class="post-date">April 7, 2018</span></li>
-                                        <li><a href="#">Map where your photos were taken and discover local points.</a><span class="post-date">September 7, 2018</span></li>
+                                        <li><a href="#">Sales</a><span class="post-date"></span></li>
+                                        <li><a href="#">Services</a><span class="post-date"></span></li>
+                                        <li><a href="#">Development</a><span class="post-date"></span></li>
                                     </ul>
                                 </aside>
                             </div>
@@ -328,16 +331,16 @@
                                 <!-- Twitter widget-->
                                 <aside class="widget twitter-feed-widget">
                                     <div class="widget-title">
-                                        <h6>Twitter Feed</h6>
+                                        <h6></h6>
                                     </div>
-                                    <div class="twitter-feed" data-twitter="345170787868762112" data-number="1"></div>
+                                    
                                 </aside>
                             </div>
                             <div class="col-md-3">
                                 <!-- Recent works-->
                                 <aside class="widget widget-recent-works">
                                     <div class="widget-title">
-                                        <h6>Portfolio</h6>
+                                        <h6>Case Studies</h6>
                                     </div>
                                     <ul>
                                         <li><a href="#"><img src="dist/assets/images/widgets/1.jpg" alt=""></a></li>
@@ -436,6 +439,11 @@
                   });
                 } // End if
               });
+            });
+        </script>
+        <script>
+            $('body').on('hidden.bs.modal', '.modal', function () {
+            $('video').trigger('pause');
             });
         </script>
 
